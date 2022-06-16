@@ -21,5 +21,10 @@ while i != 19 or i != 22:
         if user_input == 5 or user_input == 6 or user_input == 7:
             i = user_input
 
-print('hello')
-
+    if i != 8:
+        print('4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire. \n'
+              '17. eltűnsz a helyszínről, mintha semmi közöd se lenne a történtekhez.'
+              '18. elégedetten szemléled a művedet. \n')
+        user_input = int(input('Mit választasz? Írd be a számot:\n'))
+        if user_input == 4 or user_input == 17 or user_input == 18:
+            i = user_input
