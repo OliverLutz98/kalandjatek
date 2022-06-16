@@ -26,7 +26,7 @@ while i != 19 or i != 22:
         print('11. Béci rávesz, hogy lógjátok el az egész napot. Belemész.\n'
               '12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod.\n'
               '13. kiszúrod az éppen közeledő dögös csajt az évfolyamról és Béci megszólítja.\n')
-        user_input = int(('Mit választasz? Írj be egy számot:\n'))
+        user_input = int(input('Mit választasz? Írj be egy számot:\n'))
         if user_input == 11 or user_input == 12 or user_input == 13:
             i = user_input
 
@@ -62,7 +62,6 @@ while i != 19 or i != 22:
         if user_input == 15 or user_input == 20 or user_input == 21:
             i = user_input
 
-
     if i == 9:
         print('15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n'
               '16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n'
@@ -80,10 +79,10 @@ while i != 19 or i != 22:
 
     if i == 13:
         print('16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n'
-               '3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket.\n '
-               '2. elnyomod a csikket az igazgatónő bringájának kerekébe.\n')
+              '3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket.\n '
+              '2. elnyomod a csikket az igazgatónő bringájának kerekébe.\n')
         user_input = int(input("adj meg egy számot:"))
-        if user_input == 16 or user_input == 3 or user_input ==4:
+        if user_input == 16 or user_input == 3 or user_input == 4:
             i = user_input
 
     if i == 14:
