@@ -29,7 +29,7 @@ while i != 19 or i != 22:
         if user_input == 4 or user_input == 15 or user_input == 16:
             i = user_input
 
-    if i != 8:
+    if i == 8:
         print('4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire. \n'
               '17. eltűnsz a helyszínről, mintha semmi közöd se lenne a történtekhez.'
               '18. elégedetten szemléled a művedet. \n')
