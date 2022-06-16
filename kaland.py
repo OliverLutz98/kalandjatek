@@ -20,3 +20,6 @@ while i != 19 or i != 22:
         user_input = int(input('Give me a number:\n'))
         if user_input == 5 or user_input == 6 or user_input == 7:
             i = user_input
+
+print('hello')
+
