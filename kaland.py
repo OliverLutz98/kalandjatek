@@ -21,5 +21,13 @@ while i != 19 or i != 22:
         if user_input == 5 or user_input == 6 or user_input == 7:
             i = user_input
 
+    if i == 4:
+        print('11. Béci rávesz, hogy lógjátok el az egész napot. Belemész.\n'
+              '12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod.\n'
+              '13. kiszúrod az éppen közeledő dögös csajt az évfolyamról és Béci megszólítja.\n')
+        user_input = int(('Mit választasz? Írj be a számot:\n'))
+        if user_input == 11 or user_input == 12 or user_input == 13:
+            i = user_input
+
 print('hello')
 
