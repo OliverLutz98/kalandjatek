@@ -31,7 +31,7 @@ while i != 19 or i != 22:
               '16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n'
               '4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire.\n')
         user_input = int(input('Adj meg a számot:\n'))
-        if user_input == 15 or user_input == 16 or user_input ==4:
+        if user_input == 15 or user_input == 16 or user_input == 4:
             i = user_input
 
     if i == 14:
@@ -43,4 +43,9 @@ while i != 19 or i != 22:
     if user_input == 19 or user_input == 21 or user_input == 12:
         i = user_input
 
-
+    if i == 13:
+        printf('16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n'
+               '3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket.\n '
+               '2. elnyomod a csikket az igazgatónő bringájának kerekébe.\n')
+    user_input == 16 or user_input == 3 or user_input == 2:
+        i = user_input
