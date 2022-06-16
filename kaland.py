@@ -8,7 +8,7 @@ while i != 19 or i != 22:
               '2. elnyomod a csikket az igazgatónő bringájának kerekébe. \n'
               '3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket.  \n'
               '4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire. \n')
-        user_input = int(input('Give me a number:'))
+        user_input = int(input('Give me a number:\n'))
         if user_input == 2 or user_input == 3 or user_input == 4:
             i = user_input
 
