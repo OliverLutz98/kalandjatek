@@ -69,7 +69,7 @@ while i != 19 or i != 22:
         i = user_input
 
     if i == 13:
-        printf('16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n'
+        print('16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n'
                '3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket.\n '
                '2. elnyomod a csikket az igazgatónő bringájának kerekébe.\n')
     user_input == 16 or user_input == 3 or user_input == 2:
