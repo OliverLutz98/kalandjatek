@@ -1,5 +1,3 @@
-# 19 / 22 jatek vege
-
 i = 1
 
 while i != 19 or i != 22:
@@ -21,5 +19,10 @@ while i != 19 or i != 22:
         if user_input == 5 or user_input == 6 or user_input == 7:
             i = user_input
 
-print('hello')
-
+    if i == 7:
+        print('12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod. \n'
+              '15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt. \n'
+              '16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón. \n')
+        user_input = int(input('Give me a number:\n'))
+        if user_input == 12 or user_input == 15 or user_input == 16:
+            i = user_input
