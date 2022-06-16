@@ -33,14 +33,6 @@ while i != 19 or i != 22:
         user_input = int(input('Adj meg a számot:\n'))
         if user_input == 15 or user_input == 16 or user_input ==4:
             i = user_input
-    if i == 2:
-        print('észreveszi az éppen érkező töri tanárod, mit tettél és…\n'
-              '5. azonnal felrángat az igazgatói irodába. Te hőzöngve tiltakozol végig a folyosón.\n'
-              '6. gratulál neked, hisz szerinte is egy nagyképű szipirtyó a nő. \n'
-              '7. szó nélkül tovább sétál, mivel eléggé parázik tőled.\n')
-        user_input = int(input('Give me a number:\n'))
-        if user_input == 5 or user_input == 6 or user_input == 7:
-            i = user_input
 
     if i == 14:
         print('19. a legközelebbi kocsmáig meg se állsz és piszkosul berúgsz. \n'
