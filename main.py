@@ -18,4 +18,3 @@ else:  ## barmikor maskor
     print('another number')
 
 print('end')
-print('hi')
