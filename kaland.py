@@ -57,6 +57,12 @@ while i != 19 or i != 22:
               '21. elküld a francba.\n'
               '12. kiszúrod az éppen közeledő dögös csajt az évfolyamról és megszólítod.\n'
               'Mit választasz? Írj be a számot:\n')
+if i == 3:
+    print(
+        '8. az akciód nem jól sül el, mivel az égő csikktől meggyullad a szemét és lángra kap az egész bejárati ajtó.\n'
+        '9. a gondnok meghunyászkodva elkezdi összeseperni a szemetet.\n'
+        '10. pechedre akkor ér oda melléd az a dögös csaj az évfolyamról, akinek szemlátomást nem jön be a viselkedésed.\n'
+        'Mit választasz? Írj be a számot:\n')
     user_input = int(input("adj meg egy számot:"))
     if user_input == 19 or user_input == 21 or user_input == 12:
         i = user_input
