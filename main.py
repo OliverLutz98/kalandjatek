@@ -13,6 +13,14 @@ print('end')
 # user_input = input('adj meg valami adatot: ')
 # print(user_input)
 
-user_input = input('number: ')
-num_user_input = int(user_input)
-print(type(num_user_input))
+# user_input = input('number: ')
+# num_user_input = int(user_input)
+# print(type(num_user_input))
+
+flag = True
+counter = 0
+while flag:
+    print(counter)
+    counter += 1
+    if counter == 5:
+        flag = False
