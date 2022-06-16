@@ -106,8 +106,8 @@ while i != 19 or i != 22:
 
     if i == 13:
         print('16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n'
-               '3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket.\n '
-               '2. elnyomod a csikket az igazgatónő bringájának kerekébe.\n')
+              '3. felrúgod a bejárat melletti szemeteskukát és mellé pöccinted a csikket.\n '
+              '2. elnyomod a csikket az igazgatónő bringájának kerekébe.\n')
         user_input = int(input('Adj meg a számot:\n'))
         if user_input == 16 or user_input == 3 or user_input == 2:
             i = user_input
@@ -120,7 +120,6 @@ while i != 19 or i != 22:
         user_input = int(input('Adj meg a számot:\n'))
         if user_input == 19 or user_input == 21 or user_input == 12:
             i = user_input
-
 
     if i == 15:
         print('22. a nap hátralévő részében disznó vicceken röhögtök. VÉGE A SZTORINAK')
@@ -148,9 +147,6 @@ while i != 19 or i != 22:
         if user_input == 4:
             i = user_input
 
-    if i == 19:
-        print('Vége a sztorinak')
-
     if i == 20:
         print('22. a nap hátralévő részében disznó vicceken röhögtök.')
         user_input = int(input('Adj meg a számot:\n'))
@@ -162,3 +158,7 @@ while i != 19 or i != 22:
         user_input = int(input('Adj meg a számot:\n'))
         if user_input == 19:
             i = user_input
+
+    if i == 19 or i == 22:
+        print('Vége a sztorinak')
+        break
