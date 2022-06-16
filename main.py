@@ -32,6 +32,6 @@ flag = True
 counter = 0
 while flag:
     print('1')
-    counter+=1
+    counter += 1
     if counter == 5:
         flag = False
