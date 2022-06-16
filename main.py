@@ -19,10 +19,9 @@ else:  ## barmikor maskor
 
 print('end')
 
-# user_input = input('your number: ')
-# print(type(user_input))
-# print(user_input)
-
+user_input = int(input("adj meg egy számot:"))
+print(user_input)
+print(type(user_input))
 
 # user_input = input('your number: ')
 # num_user_input = int(user_input)
