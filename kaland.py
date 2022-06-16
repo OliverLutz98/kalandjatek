@@ -18,13 +18,30 @@ while i != 19 or i != 22:
         if user_input == 5 or user_input == 6 or user_input == 7:
             i = user_input
 
+    if i == 6:
+        print('4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire.\n'
+              '15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n'
+              '16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n')
+        user_input = int(input('Give me a number: \n'))
+        if user_input == 4 or user_input == 15 or user_input == 16:
+            i = user_input
+
+    if i != 8:
+        print('4. odaér a haverod, Béci is. Rágyújtotok egy újabb cigire. \n'
+              '17. eltűnsz a helyszínről, mintha semmi közöd se lenne a történtekhez.'
+              '18. elégedetten szemléled a művedet. \n')
+        user_input = int(input('Mit választasz? Írd be a számot:\n'))
+        if user_input == 4 or user_input == 17 or user_input == 18:
+            i = user_input
+
     if i == 12:
         print('15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.  \n'
               '20. sikerül valami nyálas dumát nyomnod a kék szemeiről. \n'
               '21. elküld a francba.\n')
         user_input = int(input('Give me a number:'))
         if user_input == 15 or user_input == 20 or user_input == 21:
-            i = user_input
+
+
 
     if i == 9:
         print('15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n'
