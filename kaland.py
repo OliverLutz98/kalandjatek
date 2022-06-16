@@ -42,7 +42,6 @@ while i != 19 or i != 22:
         if user_input == 15 or user_input == 20 or user_input == 21:
 
 
-
     if i == 9:
         print('15. megbököd a vállát és megkínálod cigivel, elfogadja és rágyújt.\n'
               '16. Bemész a suliba. Feszkós vagy, ezért betörsz egy ablakot a folyosón.\n'
